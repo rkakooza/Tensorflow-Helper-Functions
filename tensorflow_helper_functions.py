@@ -315,3 +315,5 @@ def set_seed(seed=42, set_hash_seed=False):
     # Optionally set the hash seed
     if set_hash_seed:
         os.environ['PYTHONHASHSEED'] = str(seed)
+
+# Credit: ZEROTOMASTERY Tensorflow course by mrdbourke
